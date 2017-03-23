@@ -20,7 +20,7 @@ public class Console {
 
 	public void rabotaConsole() {
 		
-		System.out.println("cписок команд: addBook,  addMagazin, del, vuvod, vuvodSort, search  ");
+		System.out.println("cписок команд: addBook,  addMagazin, del, vuvod, vuvodSort, search   ");
 		System.out.println("Введите команду: ");
 
 		while (proverComand()) {
@@ -73,7 +73,7 @@ public class Console {
 			addMagazin();
 			break;
 		case "del":
-			System.out.println("Ведите название для удаления: ")
+			System.out.println("Ведите название для удаления: ");
 			lib.del(scann());
 			break;
 		case "search":
